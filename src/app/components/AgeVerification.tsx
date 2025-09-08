@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Calendar, AlertTriangle } from "lucide-react";
 import { Button } from "./ui/button";
-import logoImage from './../../../public/logo.png';
 
 interface AgeVerificationProps {
   onVerified: () => void;
@@ -44,7 +43,7 @@ export function AgeVerification({ onVerified }: AgeVerificationProps) {
           {/* Logo */}
           <div className="flex justify-center mb-6">
             <img 
-              src={logoImage} 
+              src="/logo.png" 
               alt="Puff Puff Pass Plaza Logo" 
               className="w-24 h-12 object-contain"
             />
