@@ -74,7 +74,7 @@ export function AgeVerification({ onVerified }: AgeVerificationProps) {
           <div className="bg-purple-900/40 rounded-2xl p-4 mb-8 border border-purple-500/20">
             <div className="flex items-center justify-center gap-2 mb-2">
               <Calendar className="w-4 h-4 text-purple-400" />
-              <span className="text-sm text-purple-300">Today's Date</span>
+              <span className="text-sm text-purple-300">Today&apos;s Date</span>
             </div>
             <div className="text-xl font-semibold text-white">
               {new Date().toLocaleDateString('en-US', { 
@@ -96,21 +96,21 @@ export function AgeVerification({ onVerified }: AgeVerificationProps) {
                 onClick={() => handleVerification(true)}
                 className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white py-4 px-6 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 border border-green-500/30"
               >
-                Yes, I'm 20+
+                Yes, I&apos;m 20+
               </Button>
               <Button
                 onClick={() => handleVerification(false)}
                 variant="outline"
                 className="bg-transparent border-red-500/50 text-red-400 hover:bg-red-500/10 hover:border-red-500 py-4 px-6 rounded-xl font-semibold transition-all duration-300"
               >
-                No, I'm under 20
+                No, I&apos;m under 20
               </Button>
             </div>
           </div>
 
           {/* Footer */}
           <div className="text-xs text-gray-500 space-y-1">
-            <p>By clicking "Yes", you certify that you are of legal age.</p>
+            <p>By clicking &quot;Yes&quot;, you certify that you are of legal age.</p>
             <p>Puff Puff Pass Plaza • Phuket, Thailand</p>
           </div>
         </div>

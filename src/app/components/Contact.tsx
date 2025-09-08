@@ -170,7 +170,7 @@ export function Contact() {
                   </div>
                   
                   <p className="text-gray-300 mb-4 italic">
-                    "{testimonial.comment}"
+                    &quot;{testimonial.comment}&quot;
                   </p>
                   
                   <div>

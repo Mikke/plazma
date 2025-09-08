@@ -109,7 +109,7 @@ export function BrandedStrains() {
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Exclusive strains developed and curated specifically
             for Puff Puff Pass Plaza, each with unique
-            characteristics inspired by Phuket's natural beauty.
+            characteristics inspired by Phuket&apos;s natural beauty.
           </p>
         </div>
 
